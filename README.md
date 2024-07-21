@@ -13,3 +13,9 @@
 ### Setting it up locally...
 
 Check out this [documentation](./SETUP.md) for more information on setting up Voltio locally
+
+### Contributors
+
+- [ChiefWoods](https://github.com/ChiefWoods)
+- [yaphaojian](https://github.com/yaphaojian)
+- [Karweiii](https://github.com/Karweiii)

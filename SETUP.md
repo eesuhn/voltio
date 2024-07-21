@@ -81,35 +81,35 @@
 
 #### Transferring Tokens
 
-Make a POST HTTP request to `/transfer/tokens` with the following body:
+- Make a POST HTTP request to `/transfer/tokens` with the following body:
 
-```
-{
-  "senderSecretKey": <SECRET_KEY_IN_UINT8ARRAY>,
-  "recipientAddress": <ADDRESS_TO_TRANSFER_TO>,
-  "amount": <AMOUNT_OF_TOKENS>
-}
-```
+	```
+	{
+	"senderSecretKey": <SECRET_KEY_IN_UINT8ARRAY>,
+	"recipientAddress": <ADDRESS_TO_TRANSFER_TO>,
+	"amount": <AMOUNT_OF_TOKENS>
+	}
+	```
 
 #### Transferring NFTs
 
-Make a POST HTTP request to `/transfer/nft` with the following body:
+- Make a POST HTTP request to `/transfer/nft` with the following body:
 
-```
-{
-  "senderSecretKey": <SECRET_KEY_IN_UINT8ARRAY>,
-  "recipientAddress": <ADDRESS_TO_TRANSFER_TO>,
-  "mintAddress": <MINT_ADDRESS_OF_NFT>
-}
-```
+	```
+	{
+	"senderSecretKey": <SECRET_KEY_IN_UINT8ARRAY>,
+	"recipientAddress": <ADDRESS_TO_TRANSFER_TO>,
+	"mintAddress": <MINT_ADDRESS_OF_NFT>
+	}
+	```
 
 #### Airdrop Tokens
 
-Make a POST HTTP request to `/airdrop` with the following body:
+- Make a POST HTTP request to `/airdrop` with the following body:
 
-```
-{
-  "recipientAddress": <ADDRESS_TO_AIRDROP_TO>,
-  "amount": <AMOUNT_OF_TOKENS>
-}
-```
+	```
+	{
+	"recipientAddress": <ADDRESS_TO_AIRDROP_TO>,
+	"amount": <AMOUNT_OF_TOKENS>
+	}
+	```
